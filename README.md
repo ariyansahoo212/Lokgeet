@@ -1,11 +1,11 @@
 <div id="top">
-<h1 align="center">KirtankarBooker</h1>
+<h1 align="center">GayakBooker</h1>
 
 <div align="center">
   <br>
 
 <h3>📝 Description :</h3> 
-Welcome to our platform! Our website offers a seamless experience for users and kirtankars alike. Sign up or log in to unlock a range of features. Easily browse through a list of available kirtankars, manage your profile, and submit queries effortlessly. Stay updated with notifications and enjoy secure access to your information. Aspiring kirtankars can apply through our user-friendly system. Book kirtans with your preferred kirtankars and track their status. Admin features ensure smooth operations, including approval of kirtankar applications and user management. Rest assured, all data is stored securely. Join us to experience a new era of convenient and efficient interactions.
+Welcome to our platform! Our website offers a seamless experience for users and Gayak alike. Sign up or log in to unlock a range of features. Easily browse through a list of available Gayaks, manage your profile, and submit queries effortlessly. Stay updated with notifications and enjoy secure access to your information. Aspiring Gayak can apply through our user-friendly system. Book LokGeet with your preferred Gayak and track their status. Admin features ensure smooth operations, including approval of Gayak applications and user management. Rest assured, all data is stored securely. Join us to experience a new era of convenient and efficient interactions.
 
 <br/>
 
@@ -38,8 +38,8 @@ Welcome to our platform! Our website offers a seamless experience for users and 
 
 <div align=center>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/akshaychouke)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akshaychouke)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/dipesh-dwivedi17/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dipesh412)
 
 </div>
 
@@ -53,17 +53,17 @@ Welcome to our platform! Our website offers a seamless experience for users and 
 
 <ul>
   <li><strong>User Registration and Login:</strong> Enabling user registration and login functionality is the foundation of any user-oriented platform.</li>
-  <li><strong>View Available Kirtankars:</strong> Allowing users to easily view the list of available kirtankars helps them find the right kirtankar for their needs.</li>
+  <li><strong>View Available Gayak:</strong> Allowing users to easily view the list of available Gayak helps them find the right Gayak for their needs.</li>
   <li><strong>Update Profile:</strong> Providing users with the ability to update their profiles keeps their information accurate and up to date.</li>
   <li><strong>Contact Section for Queries:</strong> Including a contact section for user queries enhances user engagement and customer support.</li>
   <li><strong>Notifications Tab:</strong> A notifications tab helps users stay informed about updates, appointments, and application statuses.</li>
-  <li><strong>Admin Management System:</strong> An admin management system is crucial for overseeing users, appointments, and kirtankar applications.</li>
-  <li><strong>Access Control:</strong> Restricting access to certain sections like notifications, profile, appointments, and kirtankar applications to logged-in users ensures data privacy and security.</li>
-  <li><strong>Book Appointments:</strong> Enabling users to book appointments with their preferred kirtankars streamlines the process of arranging kirtans .</li>
-  <li><strong>Admin Approval for Kirtankar Requests:</strong> Admin approval for kirtankar applications ensures that only qualified ans well know kirtankar are listed on the platform.</li>
-  <li><strong>User and Kirtankar Removal:</strong> Admin's ability to remove users or kirtankars from the site is crucial for maintaining the platform's integrity.</li>
-  <li><strong>Appointment Marking:</strong> Allowing kirtankars and admin to mark appointments as completed ensures proper record-keeping.</li>
-  <li><strong>Application and Appointment Notifications:</strong> Sending notifications to users, kirtankars, and admins about application statuses and appointment updates enhances communication.</li>
+  <li><strong>Admin Management System:</strong> An admin management system is crucial for overseeing users, appointments, and Gayak applications.</li>
+  <li><strong>Access Control:</strong> Restricting access to certain sections like notifications, profile, appointments, and Gayak applications to logged-in users ensures data privacy and security.</li>
+  <li><strong>Book Appointments:</strong> Enabling users to book appointments with their preferred Gayaks streamlines the process of arranging LokGeet .</li>
+  <li><strong>Admin Approval for Gayak Requests:</strong> Admin approval for Gayak applications ensures that only qualified ans well know Gayak are listed on the platform.</li>
+  <li><strong>User and Gayak Removal:</strong> Admin's ability to remove users or Gayaks from the site is crucial for maintaining the platform's integrity.</li>
+  <li><strong>Appointment Marking:</strong> Allowing Gayaks and admin to mark appointments as completed ensures proper record-keeping.</li>
+  <li><strong>Application and Appointment Notifications:</strong> Sending notifications to users, Gayaks, and admins about application statuses and appointment updates enhances communication.</li>
   <li><strong>Data Storage and Security:</strong> Storing all data in a database ensures data integrity, security, and easy retrieval of information.</li>
 </ul>
 
@@ -112,29 +112,6 @@ npm start
 
 ---
 
-<p align="right"><a href="#top">Back to Top</a></p>
 
-### Home page
-
-<img src="./src/images/home.png" alt='home'/>
-
-### Profile page
-
-<img src="./src/images/profile.png" alt='profile'/>
-
-### All Kirtankars page
-
-<img src="./src/images/kirtankars.png" alt='kirtankars'/>
-
-### Apply for kirtankar page
-
-<img src="./src/images/kirtankarapply.png" alt='kirtankarapply'/>
-
-### Admin all applications page
-
-<img src="./src/images/applications.png" alt='applications'/>
-
-
-<p align="right"><a href="#top">Back to Top</a></p>
 
 </div>
