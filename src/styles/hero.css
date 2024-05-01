@@ -1,0 +1,90 @@
+@import url(app.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.hero {
+  display: flex;
+  height: 90vh;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust based on your layout */
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.8s ease-in-out;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+  position: relative;
+  z-index: 2; /* Keeps content on top of the background image */
+  color: rgb(55, 28, 208); /* Adjust text color for visibility */
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+  color:rgb(218, 217, 230);
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero-img {
+  flex: 1;
+ 
+}
+.hero-content p{
+  color: rgb(16, 214, 145);
+  justify-content: center;
+  text-align: justify;
+  text-shadow: 7px;
+  /* size: 10px; */
+  font-size: larger;
+  font-weight:bold;
+}
+.hero-img img {
+  width:100%;
+  height:350px;
+  object-fit:cover;
+  object-position:50% 50%;width: 100%;
+  border-radius: 10px;
+}
+
+.about {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+#aboutP p{
+  color: black;
+  text-align:justify;
+}
+
+@media screen and (max-width: 770px) {
+  .hero {
+    height: auto;
+  }
+  .hero,
+  .about {
+    flex-direction: column;
+  }
+  .hero-content {
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .hero-content h1 {
+    text-align: center;
+  }
+  .about-heading {
+    margin-top: 4rem;
+  }
+}
