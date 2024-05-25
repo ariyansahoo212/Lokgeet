@@ -1,7 +1,7 @@
 import React from "react";
 import AdminApplications from "../components/AdminApplications";
 import AdminAppointments from "../components/AdminAppointments";
-import AdminKirtankar from "../components/AdminKirtankar";
+import AdminGayak from "../components/AdminGayak";
 import Sidebar from "../components/Sidebar";
 import Users from "../components/Users";
 
@@ -14,8 +14,8 @@ const Dashboard = (props) => {
           <Sidebar />
           {type === "users" ? (
             <Users />
-          ) : type === "kirtankars" ? (
-            <AdminKirtankar />
+          ) : type === "Gayaks" ? (
+            <AdminGayak />
           ) : type === "applications" ? (
             <AdminApplications />
           ) : type === "appointments" ? (

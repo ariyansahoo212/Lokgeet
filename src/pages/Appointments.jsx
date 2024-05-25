@@ -39,8 +39,8 @@ const Appointments = () => {
           "/appointment/completed",
           {
             appointid: ele?._id,
-            kirtankarId: ele?.kirtankarId?._id,
-            kirtankarname: `${ele?.userId?.firstname} ${ele?.userId?.lastname}`,
+            GayakId: ele?.GayakId?._id,
+            Gayakname: `${ele?.userId?.firstname} ${ele?.userId?.lastname}`,
           },
           {
             headers: {
@@ -83,7 +83,7 @@ const Appointments = () => {
                     <th>Booking Date</th>
                     <th>Booking Time</th>
                     <th>Status</th>
-                    {userId === appointments[0].kirtankarId?._id ? (
+                    {userId === appointments[0].GayakId?._id ? (
                       <th>Action</th>
                     ) : (
                       <></>
@@ -96,9 +96,9 @@ const Appointments = () => {
                       <tr key={ele?._id}>
                         <td>{i + 1}</td>
                         <td>
-                          {ele?.kirtankarId?.firstname +
+                          {ele?.GayakId?.firstname +
                             " " +
-                            ele?.kirtankarId?.lastname}
+                            ele?.GayakId?.lastname}
                         </td>
                         <td>
                           {ele?.userId?.firstname + " " + ele?.userId?.lastname}
@@ -108,7 +108,7 @@ const Appointments = () => {
                         <td>{ele?.createdAt.split("T")[0]}</td>
                         <td>{ele?.updatedAt.split("T")[1].split(".")[0]}</td>
                         <td>{ele?.status}</td>
-                        {userId === ele?.kirtankarId?._id ? (
+                        {userId === ele?.GayakId?._id ? (
                           <td>
                             <button
                               className={`btn user-btn accept-btn ${

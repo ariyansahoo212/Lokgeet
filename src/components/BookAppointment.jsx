@@ -25,10 +25,10 @@ const BookAppointment = ({ setModalOpen, ele }) => {
         axios.post(
           "/appointment/bookappointment",
           {
-            kirtankarId: ele?.userId?._id,
+            GayakId: ele?.userId?._id,
             date: formDetails.date,
             time: formDetails.time,
-            kirtankarname: `${ele?.userId?.firstname} ${ele?.userId?.lastname}`,
+            Gayakname: `${ele?.userId?.firstname} ${ele?.userId?.lastname}`,
           },
           {
             headers: {
@@ -37,9 +37,9 @@ const BookAppointment = ({ setModalOpen, ele }) => {
           }
         ),
         {
-          success: "Kirtankar booked successfully",
-          error: "Unable to book Kirtankar",
-          loading: "Booking Kirtankar...",
+          success: "Gayak booked successfully",
+          error: "Unable to book Gayak",
+          loading: "Booking Gayak...",
         }
       );
       setModalOpen(false);
@@ -56,7 +56,7 @@ const BookAppointment = ({ setModalOpen, ele }) => {
     <>
       <div className="modal flex-center">
         <div className="modal__content">
-          <h2 className="page-heading">Book Kirtankar</h2>
+          <h2 className="page-heading">Book Gayak</h2>
           <IoMdClose
             onClick={() => {
               setModalOpen(false);

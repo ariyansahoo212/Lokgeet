@@ -1,11 +1,11 @@
 <div id="top">
-<h1 align="center">GayakBooker</h1>
+<h1 align="center">Book Bagheli LokGeet Gayak</h1>
 
 <div align="center">
   <br>
 
 <h3>📝 Description :</h3> 
-Welcome to our platform! Our website offers a seamless experience for users and Gayak alike. Sign up or log in to unlock a range of features. Easily browse through a list of available Gayaks, manage your profile, and submit queries effortlessly. Stay updated with notifications and enjoy secure access to your information. Aspiring Gayak can apply through our user-friendly system. Book LokGeet with your preferred Gayak and track their status. Admin features ensure smooth operations, including approval of Gayak applications and user management. Rest assured, all data is stored securely. Join us to experience a new era of convenient and efficient interactions.
+Welcome to our platform! Our website offers a seamless experience for users and Gayak alike. Sign up or log in to unlock a range of features. Easily browse through a list of available Gayak, manage your profile, and submit queries effortlessly. Stay updated with notifications and enjoy secure access to your information. Aspiring Gayak can apply through our user-friendly system. Book Bagheli LokGeet with your preferred Gayak and track their status. Admin features ensure smooth operations, including approval of Gayak applications and user management. Rest assured, all data is stored securely. Join us to experience a new era of convenient and efficient interactions.
 
 <br/>
 
@@ -59,11 +59,11 @@ Welcome to our platform! Our website offers a seamless experience for users and 
   <li><strong>Notifications Tab:</strong> A notifications tab helps users stay informed about updates, appointments, and application statuses.</li>
   <li><strong>Admin Management System:</strong> An admin management system is crucial for overseeing users, appointments, and Gayak applications.</li>
   <li><strong>Access Control:</strong> Restricting access to certain sections like notifications, profile, appointments, and Gayak applications to logged-in users ensures data privacy and security.</li>
-  <li><strong>Book Appointments:</strong> Enabling users to book appointments with their preferred Gayaks streamlines the process of arranging LokGeet .</li>
+  <li><strong>Book Appointments:</strong> Enabling users to book appointments with their preferred Gayak streamlines the process of arranging LokGeet .</li>
   <li><strong>Admin Approval for Gayak Requests:</strong> Admin approval for Gayak applications ensures that only qualified ans well know Gayak are listed on the platform.</li>
-  <li><strong>User and Gayak Removal:</strong> Admin's ability to remove users or Gayaks from the site is crucial for maintaining the platform's integrity.</li>
-  <li><strong>Appointment Marking:</strong> Allowing Gayaks and admin to mark appointments as completed ensures proper record-keeping.</li>
-  <li><strong>Application and Appointment Notifications:</strong> Sending notifications to users, Gayaks, and admins about application statuses and appointment updates enhances communication.</li>
+  <li><strong>User and Gayak Removal:</strong> Admin's ability to remove users or Gayak from the site is crucial for maintaining the platform's integrity.</li>
+  <li><strong>Appointment Marking:</strong> Allowing Gayak and admin to mark appointments as completed ensures proper record-keeping.</li>
+  <li><strong>Application and Appointment Notifications:</strong> Sending notifications to users, Gayak, and admins about application statuses and appointment updates enhances communication.</li>
   <li><strong>Data Storage and Security:</strong> Storing all data in a database ensures data integrity, security, and easy retrieval of information.</li>
 </ul>
 

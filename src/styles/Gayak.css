@@ -1,10 +1,10 @@
 @import url(app.css);
 
-.kirtankars {
+.Gayak {
   margin-bottom: 5rem;
 }
 
-.kirtankars-card-container {
+.Gayak-card-container {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-evenly; */

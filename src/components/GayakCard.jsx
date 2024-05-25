@@ -1,10 +1,10 @@
-import "../styles/kirtankarcard.css";
+import "../styles/Gayakcard.css";
 import React, { useState } from "react";
 import BookAppointment from "./BookAppointment";
 import { toast } from "react-hot-toast";
-import Kirtankars from "../pages/Kirtankars";
+import Gayak from "../pages/Gayak";
 
-const KirtankarCard = ({ ele }) => {
+const GayakCard = ({ ele }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [token, setToken] = useState(localStorage.getItem("token") || "");
 
@@ -52,4 +52,4 @@ const KirtankarCard = ({ ele }) => {
   );
 };
 
-export default KirtankarCard;
+export default GayakCard;

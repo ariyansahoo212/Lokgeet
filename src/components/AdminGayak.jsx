@@ -10,16 +10,16 @@ import "../styles/user.css";
 
 axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
 
-const AdminKirtankar = () => {
-  const [kirtankars, setKirtankars] = useState([]);
+const AdminGayak = () => {
+  const [Gayak, setGayak] = useState([]);
   const dispatch = useDispatch();
   const { loading } = useSelector((state) => state.root);
 
-  const getAllKirtankars = async (e) => {
+  const getAllGayak = async (e) => {
     try {
       dispatch(setLoading(true));
-      const temp = await fetchData(`/kirtankar/getallkirtankar`);
-      setKirtankars(temp);
+      const temp = await fetchData(`/Gayak/getallGayak`);
+      setGayak(temp);
       dispatch(setLoading(false));
     } catch (error) {}
   };
@@ -30,7 +30,7 @@ const AdminKirtankar = () => {
       if (confirm) {
         await toast.promise(
           axios.put(
-            "/kirtankar/deletekirtankar",
+            "/Gayak/deleteGayak",
             { userId },
             {
               headers: {
@@ -39,12 +39,12 @@ const AdminKirtankar = () => {
             }
           ),
           {
-            success: "Kirtankar deleted successfully",
-            error: "Unable to delete Kirtankar",
-            loading: "Deleting Kirtankar...",
+            success: "Gayak deleted successfully",
+            error: "Unable to delete Gayak",
+            loading: "Deleting Gayak...",
           }
         );
-        getAllKirtankars();
+        getAllGayak();
       }
     } catch (error) {
       return error;
@@ -52,7 +52,7 @@ const AdminKirtankar = () => {
   };
 
   useEffect(() => {
-    getAllKirtankars();
+    getAllGayak();
   }, []);
 
   return (
@@ -61,8 +61,8 @@ const AdminKirtankar = () => {
         <Loading />
       ) : (
         <section className="user-section">
-          <h3 className="home-sub-heading">All Kirtankars</h3>
-          {kirtankars.length > 0 ? (
+          <h3 className="home-sub-heading">All Gayak</h3>
+          {Gayak.length > 0 ? (
             <div className="user-container">
               <table>
                 <thead>
@@ -80,7 +80,7 @@ const AdminKirtankar = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {kirtankars?.map((ele, i) => {
+                  {Gayak?.map((ele, i) => {
                     return (
                       <tr key={ele?._id}>
                         <td>{i + 1}</td>
@@ -123,4 +123,4 @@ const AdminKirtankar = () => {
   );
 };
 
-export default AdminKirtankar;
+export default AdminGayak;

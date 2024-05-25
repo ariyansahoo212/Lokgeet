@@ -29,8 +29,8 @@ const Sidebar = () => {
       icon: <FaUsers />,
     },
     {
-      name: "Kirtankars",
-      path: "/dashboard/kirtankars",
+      name: "Gayak",
+      path: "/dashboard/Gayak",
       icon: <FaUserMd />,
     },
     {

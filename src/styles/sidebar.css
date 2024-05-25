@@ -1,11 +1,7 @@
 @import url(app.css);
 
 .sidebar-section {
-  background: linear-gradient(
-    0deg,
-    rgba(0, 119, 255, 1) 0%,
-    rgba(64, 164, 255, 1) 100%
-  );
+  background: linear-gradient( 0deg, rgb(17, 18, 18) 0%, rgba(64, 164, 255, 1) 100% );
   width: 18vw;
   height: 100vh;
   box-shadow: 0 0 10px 0 var(--darker-blue);

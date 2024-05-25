@@ -35,8 +35,8 @@ const AdminAppointments = () => {
           "/appointment/completed",
           {
             appointid: ele?._id,
-            kirtankarId: ele?.kirtankarId._id,
-            kirtankarname: `${ele?.userId?.firstname} ${ele?.userId?.lastname}`,
+            GayakId: ele?.GayakId._id,
+            Gayakname: `${ele?.userId?.firstname} ${ele?.userId?.lastname}`,
           },
           {
             headers: {
@@ -87,9 +87,9 @@ const AdminAppointments = () => {
                       <tr key={ele?._id}>
                         <td>{i + 1}</td>
                         <td>
-                          {ele?.kirtankarId?.firstname +
+                          {ele?.GayakId?.firstname +
                             " " +
-                            ele?.kirtankarId?.lastname}
+                            ele?.GayakId?.lastname}
                         </td>
                         <td>
                           {ele?.userId?.firstname + " " + ele?.userId?.lastname}

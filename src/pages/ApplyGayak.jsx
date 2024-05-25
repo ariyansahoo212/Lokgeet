@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
 
-const ApplyKirtankar = () => {
+const ApplyGayak = () => {
   const navigate = useNavigate();
   const [formDetails, setFormDetails] = useState({
     tradition: "",
@@ -31,7 +31,7 @@ const ApplyKirtankar = () => {
     try {
       await toast.promise(
         axios.post(
-          "/kirtankar/applyforkirtankar",
+          "/Gayak/applyforGayak",
           {
             formDetails,
           },
@@ -42,9 +42,9 @@ const ApplyKirtankar = () => {
           }
         ),
         {
-          success: "Kirtankar application sent successfully",
-          error: "Unable to send Kirtankar application",
-          loading: "Sending Kirtankar application...",
+          success: "Gayak application sent successfully",
+          error: "Unable to send Gayak application",
+          loading: "Sending Gayak application...",
         }
       );
 
@@ -58,7 +58,7 @@ const ApplyKirtankar = () => {
     <>
       <Navbar />
       <section
-        className="register-section flex-center apply-kirtankar"
+        className="register-section flex-center apply-Gayak"
         id="contact"
       >
         <div className="register-container flex-center contact">
@@ -114,4 +114,4 @@ const ApplyKirtankar = () => {
   );
 };
 
-export default ApplyKirtankar;
+export default ApplyGayak;

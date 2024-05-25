@@ -10,10 +10,10 @@ import Loading from "./components/Loading";
 const Home = lazy(() => import("./pages/Home"));
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Appointments = lazy(() => import("./pages/Appointments"));
-const Kirtankars = lazy(() => import("./pages/Kirtankars"));
+const Gayak = lazy(() => import("./pages/Gayak"));
 const Profile = lazy(() => import("./pages/Profile"));
 const Notifications = lazy(() => import("./pages/Notifications"));
-const ApplyKirtankar = lazy(() => import("./pages/ApplyKirtankar"));
+const ApplyGayak = lazy(() => import("./pages/ApplyGayak"));
 const Error = lazy(() => import("./pages/Error"));
 
 function App() {
@@ -39,8 +39,8 @@ function App() {
             element={<Home />}
           />
           <Route
-            path="/kirtankars"
-            element={<Kirtankars />}
+            path="/Gayak"
+            element={<Gayak />}
           />
           <Route
             path="/appointments"
@@ -59,10 +59,10 @@ function App() {
             }
           />
           <Route
-            path="/applyforkirtankar"
+            path="/applyforGayak"
             element={
               <Protected>
-                <ApplyKirtankar />
+                <ApplyGayak />
               </Protected>
             }
           />
@@ -83,10 +83,10 @@ function App() {
             }
           />
           <Route
-            path="/dashboard/kirtankars"
+            path="/dashboard/Gayak"
             element={
               <Admin>
-                <Dashboard type={"kirtankars"} />
+                <Dashboard type={"Gayak"} />
               </Admin>
             }
           />

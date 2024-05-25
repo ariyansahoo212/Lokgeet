@@ -20,7 +20,7 @@ function Register() {
   const navigate = useNavigate();
 
   const inputChange = (e) => {
-    if (e.target.type == "file") {
+    if (e.target.type === "file") {
       setFormDetails({
         ...formDetails,
         pic: e.target.files[0],

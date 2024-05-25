@@ -18,7 +18,7 @@ const AdminApplications = () => {
   const getAllApp = async (e) => {
     try {
       dispatch(setLoading(true));
-      const temp = await fetchData(`/kirtankar/getnotkirtankar`);
+      const temp = await fetchData(`/Gayak/getnotGayak`);
       setApplications(temp);
       dispatch(setLoading(false));
     } catch (error) {}
@@ -30,7 +30,7 @@ const AdminApplications = () => {
       if (confirm) {
         await toast.promise(
           axios.put(
-            "/kirtankar/acceptkirtankar",
+            "/Gayak/acceptGayak",
             { id: userId },
             {
               headers: {
@@ -58,7 +58,7 @@ const AdminApplications = () => {
       if (confirm) {
         await toast.promise(
           axios.put(
-            "/kirtankar/rejectkirtankar",
+            "/Gayak/rejectGayak",
             { id: userId },
             {
               headers: {

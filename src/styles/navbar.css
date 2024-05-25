@@ -9,7 +9,7 @@ header {
   position: sticky;
   top: 0%;
   left: 0%;
-  background-color: rgb(197, 210, 236);
+  background: linear-gradient( 0deg, rgb(190, 206, 206) 0%, rgb(30, 137, 198) 100% );
   z-index: 2;
   box-shadow: 0 0 20px 0 rgba(197, 202, 206, 0.339);
   transition: all 0.2 linear;
